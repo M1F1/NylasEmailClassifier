@@ -10,6 +10,9 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import Pipeline
 import joblib
 
+# TODO add if main
+# TODO add documentation
+# TODO add test for preprocessing function
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-l", "--new_label_name",
@@ -61,7 +64,7 @@ if args.train_model:
     try:
         df = pd.read_csv(f'{args.new_label_name}_train_labeled_dataset.csv')
     except:
-        print(f"You have to create labels per every message in {args.new_label_name}_train_dataset.csv"
+        print(f"You have to create labels for every message in {args.new_label_name}_train_dataset.csv"
               f"and saved it as {args.new_label_name}_train_labeled_dataset.csv")
         raise
 
@@ -106,7 +109,7 @@ if args.predict_label:
             my_new_label = label_list[0]
 
         message = nylas.messages.first()
-        text =  preprocessing(message.body)
+        text = preprocessing(message.body)
 
         print('Predicting label for: ')
         print(text)
