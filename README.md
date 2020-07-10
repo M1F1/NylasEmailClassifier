@@ -1,4 +1,4 @@
-## NylasEmailClassifier
+# NylasEmailClassifier
 1. Clone repo and install requiremets: 
   ```sh
   git clone 
@@ -21,4 +21,5 @@
   ```
 7. Classify the newest received email message:
   ```sh
-  python create_train_predict.py -l {new_label_name} -p NylasEmailClassifier
+  python create_train_predict.py -l {new_label_name} -p
+  ```
