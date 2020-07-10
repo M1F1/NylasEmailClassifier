@@ -1,5 +1,5 @@
 # NylasEmailClassifier
-  Project contains simple text binary classifier (MultinomiaL Naive Bayes) which categorize email messages from your inbox. It uses API provided by Nylas to leverage messages from email account and create/add new labels to the recived message. If you want to try it, check the instructions below:
+  Project contains simple text binary classifier (MultinomiaL Naive Bayes) which categorize email messages from your inbox. It uses API provided by [Nylas](https://www.nylas.com/) to leverage messages from email account and create/add new labels to the recived message. If you want to try it, check the instructions below:
 1. Clone repo and install requiremets: 
   ```sh
   git clone 
