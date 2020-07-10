@@ -12,7 +12,7 @@
   ```sh
   python create_train_predict.py -l {new_label_name} -nt 50 -c
   ```
-5. In the next step you will be training binary classifier, so tag messages either with 0 or 1 (1 means that message should be labeled with chosen new label).
+5. In the next step you will be training binary classifier, so tag messages either with 0 or 1 (1 means that message should have chosen new label).
    Save tagged data as `{new_label_name}_train_labeled_dataset.csv`.
 
 6. Train classifier on tagged data:
