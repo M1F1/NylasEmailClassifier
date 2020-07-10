@@ -20,6 +20,5 @@ class TestFunctions(unittest.TestCase):
         output = preprocessing(data)
         self.assertEqual(expected_result, output)
 
-
 if __name__ == '__main__':
     unittest.main()
