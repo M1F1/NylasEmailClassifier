@@ -10,10 +10,6 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import Pipeline
 import joblib
 
-# TODO add if main
-# TODO add documentation
-# TODO add test for preprocessing function
-
 def preprocessing(body_html):
     text = BeautifulSoup(body_html, "lxml").text
     return " ".join(text.split())
