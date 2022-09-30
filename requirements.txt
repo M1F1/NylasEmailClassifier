@@ -7,7 +7,7 @@ cffi==1.14.0
 chardet==3.0.4
 cryptography==2.9.2
 idna==2.10
-joblib==0.16.0
+joblib==1.2.0
 lxml==4.5.2
 numpy==1.19.0
 nylas==4.12.0
